@@ -19,5 +19,7 @@ Below files have already been run, and need not to be reran. But if you want to 
 
 2. The base models (used as estimators) in finalModel.py are already set to a certain hyperparameter values. This values are obtained from tuning.py and can be modified upon analysis of the output obtained by running tuning.py
 
+3. The baseline model (KNN) can be run by baselineModel.py file. 
+
 
 
