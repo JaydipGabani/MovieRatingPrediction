@@ -13,8 +13,8 @@ dataframeMovies = dataframeMovies[['NeflixMovieTitle','Genre','Language','Countr
 dataframeMovies = dataframeMovies.dropna(subset=['NeflixMovieTitle','Genre','Language','Country','Rated', 'Production', 'Runtime', 'Type','Director','Actors','Writer','IMDBRating'])
 #dataframeMovies = dataframeMovies.dropna(subset=['NeflixMovieTitle','Genre','Language','Country','Rated', 'Production', 'Runtime', 'Type','Actors','Writer','IMDBRating'])
 dataframeMovies = dataframeMovies[dataframeMovies.Type == "movie"]
-dataframeMovies = dataframeMovies[dataframeMovies.Language == "English"]
-dataframeMovies = dataframeMovies[dataframeMovies.Country == "USA"]
+# dataframeMovies = dataframeMovies[dataframeMovies.Language == "English"]
+# dataframeMovies = dataframeMovies[dataframeMovies.Country == "USA"]
 # For testing the code, uncomment below line to reduce the size of input data
 dataframeMovies = dataframeMovies.drop(dataframeMovies.sample(frac=.95).index)
 
